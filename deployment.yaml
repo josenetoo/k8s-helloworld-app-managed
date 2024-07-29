@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello-world
-        image: vcp.ocir.io/ax5b2hhr8y7h/neto/helloworld:v1
+        image: dockercloud/hello-world:latest
         ports:
         - containerPort: 80
         resources:
